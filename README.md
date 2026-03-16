@@ -6,8 +6,8 @@ This is a **WPF application** that runs **without a visible window** and exists 
 <img width="248" height="47" alt="grafik" src="https://github.com/user-attachments/assets/e598c17d-53cd-4282-968a-4f1ec0fe1360" />
 
 **Features:**
+- Minimal ;)
 - Tray icon with dynamic display of the current **calendar week (CW)**.
-- Optional: status indicators (e.g., MQTT connection, device or system status).
 - MVVM-compatible using **[Hardcodet.NotifyIcon.Wpf](https://www.nuget.org/packages/Hardcodet.NotifyIcon.Wpf/)**.
 - Automatic updates of tooltip and icon (e.g., when the week changes).
 
@@ -17,7 +17,7 @@ This is a **WPF application** that runs **without a visible window** and exists 
 - **.NET 8 / .NET Core WPF**
 - NuGet packages:
   - `Hardcodet.NotifyIcon.Wpf`
-- Optional: `System.Drawing.Common` (for dynamic icon generation)
+  - `CommunityToolkit.Mvvm`
 - Windows OS (taskbar icons are Windows-specific)
 
 ---

@@ -70,7 +70,7 @@ namespace WeekNumber.ViewModels
         public string TrayText =>
             $"KW {ISOWeek.GetWeekOfYear(DateTime.Now)}";
 
-        private Color _selectedForegroundColor = Colors.Black;
+        private Color _selectedForegroundColor;
 
         public Color SelectedForegroundColor
         {
@@ -86,7 +86,7 @@ namespace WeekNumber.ViewModels
             }
         }
 
-        private Color _selectedBackgroundColor = Colors.Red;
+        private Color _selectedBackgroundColor;
 
         public Color SelectedBackgroundColor
         {

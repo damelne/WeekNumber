@@ -7,14 +7,14 @@ using System.Windows.Media.Imaging;
 
 public static class TrayIconGenerator
 {
-    public static System.Drawing.Icon CreateWeekIcon(int week)
+    public static System.Drawing.Icon CreateWeekIcon(int week, Brush foreground, Brush background)
     {
         int size = 32;
 
         var visual = new DrawingVisual();
         using (var dc = visual.RenderOpen())
         {
-            dc.DrawRectangle(Brushes.Yellow, null, new Rect(0, 0, size, size));
+            dc.DrawRectangle(background, null, new Rect(0, 0, size, size));
 
             var text = new FormattedText(
                 week.ToString(),
@@ -22,7 +22,7 @@ public static class TrayIconGenerator
                 FlowDirection.LeftToRight,
                 new Typeface("Segoe UI"),
                 22,
-                Brushes.Black,
+                foreground,
                 1.25);
 
             var pos = new Point(

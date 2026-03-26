@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37012.4 d17.14
+VisualStudioVersion = 17.14.37012.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeekNumber", "WeekNumber.csproj", "{5554EA25-4F6A-49B6-A7D6-EF600AD3E039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeekNumber.Updater", "..\WeekNumber.Updater\WeekNumber.Updater.csproj", "{DE6894D2-05C7-4651-BE74-845BFE7F122F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5554EA25-4F6A-49B6-A7D6-EF600AD3E039}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5554EA25-4F6A-49B6-A7D6-EF600AD3E039}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5554EA25-4F6A-49B6-A7D6-EF600AD3E039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6894D2-05C7-4651-BE74-845BFE7F122F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6894D2-05C7-4651-BE74-845BFE7F122F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6894D2-05C7-4651-BE74-845BFE7F122F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6894D2-05C7-4651-BE74-845BFE7F122F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
